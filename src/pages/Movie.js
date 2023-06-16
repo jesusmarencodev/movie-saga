@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
+
+import OneMovie from "../components/OneMovie";
 
 const Movie = () => {
-  return (
-    <div>Movie</div>
-  )
-}
+  return <OneMovie />;
+};
 
-export default Movie
+export default Movie;
